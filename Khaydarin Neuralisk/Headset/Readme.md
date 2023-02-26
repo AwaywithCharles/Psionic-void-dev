@@ -2,6 +2,14 @@
 
 This is a project to create an EEG (electroencephalogram) headset using a BeagleBone Black and various external components. The goal of the project is to read brainwave data from the user, transmit it over Bluetooth to a computer or mobile device, and display the data in real-time using a data visualization tool like Matplotlib.
 
+The headset will include 20 INA128 instrumentation amplifiers, 20 silver chloride electrodes, 3 MCP3008 ADCs, 20 LM358 operational amplifiers, 1 HC-05 Bluetooth module, resistors, capacitors, diodes, a Gens Ace 3.7V 450mAh LiPo battery, 22 AWG PTFE or silicone wire, JST connectors, header pins and connectors, and electrode connectors. The headset will be 3D printed in TPU, which is a flexible and durable material.
+
+The idea for this project came about when I was having trouble sourcing some components for OpenBCI and decided to build my own. My goal is to create a low-cost alternative for home use that is still of high quality.
+
+To make this headset work, I will be interfacing all of the components with a BeagleBone Black. The INA128 amplifiers will be connected to the power supply, input signal, and output signal pins on the board, while the MCP3008 ADCs will use the SPI interface to communicate with the BeagleBone Black. The LM358 operational amplifiers will be connected in a similar way to the INA128 amplifiers, and the HC-05 Bluetooth module will be connected to the serial interface on the board.
+
+To read the signals from the 20 electrodes, I will need to connect the electrode wires and connectors to the appropriate pins on the BeagleBone Black and write code to read the signals from the INA128 amplifiers and MCP3008 ADCs. I may also need to implement signal processing algorithms in Python to filter and analyze the EEG signals.
+
 ## Dependencies
 The project requires the following Python libraries and external components:
 
@@ -40,3 +48,5 @@ The external components, such as the printed circuit board (PCB), 3D printed fra
 The Khaydarin Neurolisk EEG headset is an open-source project that is designed to be customizable and easy to use. However, it is important to note that I am not an expert and this project should be approached with caution. While I have provided instructions and recommendations based on my own experience, there may be risks involved in building and using the headset, and it is up to the user to assess those risks and take appropriate precautions.
 
 By following the instructions in this README file, you can get started with building and using the EEG headset in your own projects. However, it is important to approach the project with caution, and to take appropriate safety measures when building and using the headset.
+
+PS: My scripts are all over the place right now and just generally ideas that I am brainstorming.
