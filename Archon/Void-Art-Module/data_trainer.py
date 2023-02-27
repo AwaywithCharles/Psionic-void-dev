@@ -1,3 +1,10 @@
+"""
+Author: Charles Bostwick
+Website: www.AwaywithCharles.com
+GitHub: https://github.com/AwaywithCharles
+License: MIT
+"""
+
 import os
 import torch
 from torch.utils.data import Dataset, DataLoader

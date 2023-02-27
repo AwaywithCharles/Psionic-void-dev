@@ -1,3 +1,10 @@
+"""
+Author: Charles Bostwick
+Website: www.AwaywithCharles.com
+GitHub: https://github.com/AwaywithCharles
+License: MIT
+"""
+
 import os
 import cv2
 import numpy as np
