@@ -1,3 +1,10 @@
+"""
+Author: Charles Bostwick
+Website: www.AwaywithCharles.com
+GitHub: https://github.com/AwaywithCharles
+License: MIT
+"""
+
 from transformers import GPT2LMHeadModel, GPT2Tokenizer, TextDataset, DataCollatorForLanguageModeling, Trainer, TrainingArguments
 
 # Load the pre-trained GPT-2 tokenizer and model

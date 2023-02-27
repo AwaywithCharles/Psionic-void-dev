@@ -1,3 +1,10 @@
+"""
+Author: Charles Bostwick
+Website: www.AwaywithCharles.com
+GitHub: https://github.com/AwaywithCharles
+License: MIT
+"""
+
 # MCP3008 ADC - start for basic reading
 
 import Adafruit_ADS1x15

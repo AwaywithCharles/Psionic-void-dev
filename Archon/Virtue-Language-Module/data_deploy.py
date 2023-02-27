@@ -1,3 +1,9 @@
+"""
+Author: Charles Bostwick
+Website: www.AwaywithCharles.com
+GitHub: https://github.com/AwaywithCharles
+License: MIT
+"""
 from PyQt5 import QtWidgets, QtGui
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 

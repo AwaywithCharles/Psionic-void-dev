@@ -1,3 +1,10 @@
+"""
+Author: Charles Bostwick
+Website: www.AwaywithCharles.com
+GitHub: https://github.com/AwaywithCharles
+License: MIT
+"""
+
 import socket
 
 # Set up socket settings

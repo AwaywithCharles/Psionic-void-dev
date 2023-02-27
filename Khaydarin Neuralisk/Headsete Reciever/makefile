@@ -1,3 +1,12 @@
+#
+#
+# Author: Charles Bostwick
+# Website: www.AwaywithCharles.com
+# GitHub: https://github.com/AwaywithCharles
+# License: MIT
+#
+#
+
 # import necessary modules
 import eeg_data_analysis
 import eeg_ui

@@ -1,3 +1,10 @@
+"""
+Author: Charles Bostwick
+Website: www.AwaywithCharles.com
+GitHub: https://github.com/AwaywithCharles
+License: MIT
+"""
+
 import Adafruit_GPIO.SPI as SPI
 import Adafruit_MCP3008
 import Adafruit_BBIO.GPIO as GPIO

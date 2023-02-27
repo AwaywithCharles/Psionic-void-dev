@@ -1,3 +1,10 @@
+"""
+Author: Charles Bostwick
+Website: www.AwaywithCharles.com
+GitHub: https://github.com/AwaywithCharles
+License: MIT
+"""
+
 # Define the STFT parameters
 nperseg = 256  # Number of samples per segment
 noverlap = nperseg // 2  # Number of overlapping samples

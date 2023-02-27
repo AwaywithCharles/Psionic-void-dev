@@ -1,3 +1,10 @@
+"""
+Author: Charles Bostwick
+Website: www.AwaywithCharles.com
+GitHub: https://github.com/AwaywithCharles
+License: MIT
+"""
+
 # Initializing and configuring the INA128 amplifier, MCP3008 ADC, and LM358 op-amp to 
 # ensure accurate measurement and amplification of the EEG signal
 
